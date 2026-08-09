@@ -27,7 +27,7 @@ This is a WEIDU mod thus currently should be compatible with other mods.
 
     1 - Extract the contents of the zip file into your override folder.
 
-	  2 - Run WeiDU and install.
+	2 - Run WeiDU and install.
 
 **FUTURE CHANGES** 
 
