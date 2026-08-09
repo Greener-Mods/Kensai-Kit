@@ -21,20 +21,19 @@ Disadvantages:
 - May not dual-class or multi-class.
 - Alignment restricted to lawful.
   
-INSTALLATION
+**INSTALLATION**
 
 This is a WEIDU mod thus currently should be compatible with other mods.
 
-1 - Extract the contents of the zip file into your override folder.
+    1 - Extract the contents of the zip file into your override folder.
 
-2 - Run WeiDU and install.
+	  2 - Run WeiDU and install.
 
-FUTURE CHANGES
+**FUTURE CHANGES** 
 
 None planned
 
-COPYRIGHT
-
+**COPYRIGHT**
 It can be used by anyone, at any time, anywhere at your own risk.
 
 THANK YOU to jmerry and CamDawg for your support along the way.
