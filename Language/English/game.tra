@@ -1,0 +1,28 @@
+@3 = ~Begins with +2 bonus to armor class and movement rate~ 
+@4 = ~All successful attacks within the next round deal maximum damage.~ 
+@5 = ~Becomes immune to fear and morale failure.~ 
+@6 = ~Gains +1 bonus to hit and damage rolls.~
+
+@7 = ~KENSAI: A Kensai is a warrior who has been specially trained to become one with <PRO_HISHER> weapon. They are deadly and fast and are trained to fight without encumbrance, some considering armor the crutch of the martially unskilled.
+
+Advantages:
+- Begins with a +2 bonus to Armor Class.
+- Begins with a +2 bonus to Movement Rate.
+- Begins with a +1 bonus to Weapon Speed Factor.
+- May use the Kai ability once per day. Gains one use at level 1 and an additional use every 4 levels thereafter.
+
+KAI: For 1 round, all successful melee attacks deal maximum damage. 
+
+- 2nd level: Becomes immune to fear and morale failure.
+- 3rd level: Gains a +1 bonus to hit and damage rolls every 3 levels.
+- 4th level: Gains a +1 bonus to Weapon Speed Factor every 4 levels.
+
+Disadvantages:
+- May not use missile weapons.
+- May not wear armor or helmets.
+- May not wear gauntlets or bracers.
+- May not dual-class or multi-class.
+- Alignment restricted to lawful.~
+
+@8 = ~Greater Kai~
+@9 = ~For 2 rounds, the Kensai gains an extra attack per round, and all successful melee attacks deal maximum damage.~

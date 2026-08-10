@@ -1,0 +1,60 @@
+BACKUP ~Kensai Kit/Backup~
+AUTHOR ~Greener~
+VERSION ~1.0~
+
+AUTO_EVAL_STRINGS
+
+LANGUAGE
+  ~English~
+  ~english~
+  ~Kensai Kit/Language/English/game.tra~
+  ~Kensai Kit/Language/English/weidu.tra~
+
+BEGIN @1
+REQUIRE_PREDICATE ENGINE_IS ~bgee bg2ee iwdee~ @2
+ACTION_IF FILE_EXISTS_IN_GAME ~enginest.2da~ BEGIN
+
+COPY_EXISTING ~ABCLASRQ.2DA~ override
+  SET_2DA_ENTRY  28 1 7 ~12~ // Kensai strength requirement (12) 
+  SET_2DA_ENTRY  28 2 7 ~14~ // Kensai dexterity requirement (12)
+  SET_2DA_ENTRY  28 5 7 ~12~ // Kensai wisdom requirement (14)
+
+COPY_EXISTING ~ALIGNMNT.2DA~ override
+  SET_2DA_ENTRY  28 4 10 ~0~ // Alignment restricted to any lawful
+  SET_2DA_ENTRY  28 5 10 ~0~ // Alignment restricted to any lawful
+  SET_2DA_ENTRY  28 6 10 ~0~ // Alignment restricted to any lawful
+
+COPY_EXISTING ~DUALCLAS.2DA~ override
+  SET_2DA_ENTRY  28 2 7 ~0~ // Dual-class and multi-class restriction
+  SET_2DA_ENTRY  28 3 7 ~0~ // Dual-class and multi-class restriction
+  SET_2DA_ENTRY  28 4 7 ~0~ // Dual-class and multi-class restriction
+  SET_2DA_ENTRY  28 5 7 ~0~ // Dual-class and multi-class restriction
+
+COPY ~Kensai Kit/CLAB/CLABFI04.2DA~ ~override~
+
+COPY ~Kensai Kit/Spells/SPCL142.SPL~ ~override~  
+  SAY UNIDENTIFIED_DESC @3
+
+COPY ~Kensai Kit/Spells/SPCL144.SPL~ ~override~  
+  SAY UNIDENTIFIED_DESC @4
+
+COPY ~Kensai Kit/Spells/SPCL145.SPL~ ~override~
+  SAY UNIDENTIFIED_DESC @5       						
+
+COPY ~Kensai Kit/Spells/SPCL146.SPL~ ~override~    	
+  SAY UNIDENTIFIED_DESC @6			
+END
+
+ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+  STRING_SET ~24286~ @7
+  STRING_SET ~25362~ @7
+END
+
+ACTION_IF GAME_IS ~bg2ee~ THEN BEGIN
+  STRING_SET ~25204~ @7
+END
+
+ACTION_IF GAME_IS ~iwdee~ THEN BEGIN
+  STRING_SET ~25204~ @7
+  STRING_SET ~37100~ @7
+END
