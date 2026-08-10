@@ -31,7 +31,7 @@ This is a WEIDU mod thus currently should be compatible with other mods.
 
 **FUTURE CHANGES** 
 
-Kit specific HLA
+- Kit specific HLA
 
 **COPYRIGHT**
 
