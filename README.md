@@ -32,6 +32,7 @@ This is a WEIDU mod thus currently should be compatible with other mods.
 **FUTURE CHANGES** 
 
 - Kit specific HLA
+- GREATER KAI: For 2 rounds, the Kensai gains an extra attack per round, and all successful melee attacks deal maximum damage.
 
 **COPYRIGHT**
 
