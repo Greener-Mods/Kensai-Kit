@@ -33,7 +33,7 @@ This is a WEIDU mod thus currently should be compatible with other mods.
 
 **FUTURE CHANGES** 
 
-- High Level Ability
+- Add a kit specific high level ability
 
 **COPYRIGHT**
 
