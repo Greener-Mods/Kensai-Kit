@@ -2,7 +2,7 @@
 
 This kit has been adapted from a variety of AD&D 1e and 2e resources and tested with BGEE and BG2EE.
 
-KENSAI: A Kensai is a warrior who has been specially trained to become one with <PRO_HISHER> weapon. They are deadly and fast and are trained to fight without encumbrance, some considering armor the crutch of the martially unskilled.
+KENSAI: A Kensai is a warrior who has been specially trained to become one with his weapon. They are deadly and fast and are trained to fight without encumbrance, some considering armor the crutch of the martially unskilled.
 
 Advantages:
 - Begins with a +2 bonus to Armor Class.
