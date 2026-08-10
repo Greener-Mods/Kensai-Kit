@@ -38,7 +38,10 @@ High Level Ability:
 
 **COPYRIGHT**
 
-
 It can be used by anyone, at any time, anywhere at your own risk.
 
 THANK YOU to jmerry and CamDawg for your support along the way.
+
+**CHANGE LOG**
+
+v1.0 Initial release
